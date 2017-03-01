@@ -14,6 +14,8 @@ COPY docker-entrypoint.sh /
 
 RUN chmod a+x /docker-entrypoint.sh
 
+VOLUME /root/.ssh
+
 EXPOSE 636
 
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
