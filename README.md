@@ -12,3 +12,5 @@ This image provides support for creating a tunnel to a remote host.
 |`AUTOSSH_TARGET_HOST`|hostname|The host to connect through. In ssh parlance, this would be the host SSH connects to.|
 |`AUTOSSH_USER`| username |The user to connect as.
 |`AUTOSSH_OPTS`| | List of additional arguments to pass to SSH.|
+
+v1
