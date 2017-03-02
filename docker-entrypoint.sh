@@ -1,5 +1,4 @@
 #!/bin/sh -e
-
 echo "Starting autossh tunnel."
 AUTOSSH_CMD="/usr/bin/autossh -M 0 -oStrictHostKeyChecking=no ${AUTOSSH_OPTS} -NL \
   ${AUTOSSH_LOCAL_PORT}:${AUTOSSH_TUNNEL_HOST}:${AUTOSSH_REMOTE_PORT} \
